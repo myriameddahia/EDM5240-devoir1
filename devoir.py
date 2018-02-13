@@ -3274,13 +3274,15 @@ reactions = 0
 
 commentaires = 0
 
+#Je m'assure de déterminer mes variables initiales.
+
 Ligne1 = publications [0][0]
 Ligne2 = ""
 
 for post in publications:
 	Ligne2 = post[0]
 	n+=1
-
+	
 	if Ligne2==Ligne1:
 		partages+=post[3]
 		reactions+=post[4]
